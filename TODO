@@ -1,0 +1,18 @@
+Installation:
+  https://github.com/roots/bedrock
+  https://github.com/aaemnnosttv/wp-cli-dotenv-command
+  composer require timber/timber
+
+  Install Themes
+    https://github.com/roots/sage
+    https://github.com/timber/starter-theme
+
+Installation issues:
+
+  1. Class Fxp\Composer\AssetPlugin\Repository\NpmRepository does not exist
+      composer global require fxp/composer-asset-plugin --no-plugins
+
+  2. Wp plugin update
+      wp plugin update --all
+
+  3. https://css-tricks.com/timber-and-twig-reignited-my-love-for-wordpress/
