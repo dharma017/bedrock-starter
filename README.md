@@ -29,7 +29,7 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 ## Installation
 
-1. Clone the git repo - `git clone https://github.com/roots/bedrock.git`
+1. Clone the git repo - `git clone git@31.192.224.208:wordpress/bedrock.git`
 2. Run `composer install`
 3. Copy `.env.example` to `.env` and update environment variables:
   * `DB_NAME` - Database name
