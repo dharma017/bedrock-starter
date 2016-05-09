@@ -77,3 +77,15 @@ Keep track of development and community news.
 * Follow [@rootswp on Twitter](https://twitter.com/rootswp)
 * Read and subscribe to the [Roots Blog](https://roots.io/blog/)
 * Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
+
+## WP-CLI
+
+wp plugin list - Get a list of plugins.
+
+wp theme list - Get a list of themes.
+
+wp rewrite flush - Flush rewrite rules.
+
+wp db export - Exports the MySQL database to a file or to STDOUT.
+
+`wp db export --add-drop-table`
