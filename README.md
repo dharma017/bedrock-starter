@@ -43,6 +43,12 @@ See a complete working example in the [roots-example-project.com repo](https://g
 4. Add theme(s) in `web/app/themes` as you would for a normal WordPress site.
 5. Set your site vhost document root to `/path/to/site/web/` (`/path/to/site/current/web/` if using deploys)
 6. Access WP admin at `http://example.com/wp/wp-admin`
+7. Activate Timber plugin - `wp plugin activate timber`
+8. Activate Lumberjack Starter theme - `wp theme activate lumberjack`
+9. Activate ACF Plugins
+```
+wp plugin activate advanced-custom-fields acf-flexible-content acf-flexible-content acf-flexible-content
+```
 
 ## Deploys
 
