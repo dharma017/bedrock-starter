@@ -16,3 +16,20 @@ Installation issues:
       wp plugin update --all
 
   3. https://css-tricks.com/timber-and-twig-reignited-my-love-for-wordpress/
+
+"wpackagist-plugin/acf-field-date-time-picker": "*",
+"wpackagist-plugin/acf-flexible-content": "*",
+"wpackagist-plugin/acf-gallery": "*",
+"wpackagist-plugin/acf-options-page": "*",
+"wpackagist-plugin/acf-repeater": "*",
+"wpackagist-plugin/acf-to-rest-api": "*",
+"wpackagist-plugin/admin-menu-editor": "*",
+"wpackagist-plugin/advanced-custom-fields": "*",
+"wpackagist-plugin/post-duplicator": "*",
+"wpackagist-plugin/Remove-Comments-Absolutely": "*",
+"wpackagist-plugin/rest-api": "*",
+"wpackagist-plugin/simple-custom-post-order": "*",
+"wpackagist-plugin/tinymce-advanced": "*",
+"wpackagist-plugin/wordpress-importer": "*",
+"wpackagist-plugin/wordpress-seo": "*",
+"wpackagist-plugin/wp-api-menus": "*"
