@@ -89,3 +89,36 @@ wp rewrite flush - Flush rewrite rules.
 wp db export - Exports the MySQL database to a file or to STDOUT.
 
 `wp db export --add-drop-table`
+
+## Bash: Download MySQL database & files to from live to development server
+
+**Change parameters in script file at first**
+
+Development Environment (local pc)
+```
+dev_db='dev_db_name'
+dev_db_user='dev_db_username'
+dev_db_pwd='dev_db_password'
+dev_db_host='dev_db_host'
+dev_files_path='/home/username/Workspace/project' # Absolute or relative to the current directory
+dev_url='http://localhost/project'
+```
+
+Staging Environment (development server)
+```
+live_host='live_ssh_host' # Blank if local
+live_user='live_ssh_username'    # Blank if local
+
+live_db='live_db_host'
+live_db_user='live_db_username'
+live_db_pwd='live_db_password'
+live_files_path='/var/www/path/to/project' # Absolute or relative to $HOME (if using SSH) or current directory (if local)
+live_url='http://dev.domain.net/project'
+```
+
+Make script executable in terminal
+`chmod +x download-live-site.sh`
+
+Run script
+`./download-live-site.sh`
+
